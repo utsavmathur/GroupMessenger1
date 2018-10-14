@@ -156,6 +156,7 @@ public class OnPTestClickListener implements OnClickListener {
                 resultCursor.close();
             }
         } catch (Exception e) {
+            Log.e("my",e.toString());
             return false;
         }
 
